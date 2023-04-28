@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Pratics</title>
+</head>
+<body>
+    <h1>Registrtion Form</h1>
+    <form action="action.php">
+        <fieldset>
+            <legend><span> Personal Information</span></legend>
+            <div>
+            <label for="first name"> First Name: <input type="text" name="fname" id="first name" placeholder="Enter your first name"></label><br><br>
+            <label for="last name">Last Name: <input type="text" name="lname" id="last name" placeholder="Enter your last name"></label>
+            <p>Date of Birth: <input type="date" name="" id=""></p>
+            <label for="email">Email: <input type="email" name="email" id="email" required placeholder="example@gmail.com"></label>
+            <p>Gender:
+            <label for="male">Male <input type="radio" name="gender" id="male"></label>
+            <label for="female">Female <input type="radio" name="gender" id="female"></label>
+            </p>
+           <label for="address">Address</label>
+           <br> 
+           <textarea name="address" id="`address" cols="50" rows="2"></textarea>
+           <br><br>
+           <label for="fill">Are you complete Graduation: <input type="checkbox" name="checkbox" id="fill"></label>
+           <p>Select Your Language:</p>
+           <select name="lang" id="lang">
+            <option value="c">C</option>
+            <option value="c++" selected>C++</option>
+            <option value="java">Java</option>
+            <option value="python">Python</option>
+           </select>
+           <br><br>
+           <label for="image">Upload your Image: <input type="file" name="image" id="image"></label>
+           <br><br>
+           <button type="submit">Submit Now</button>
+           <button type="reset">Rest Form</button>
+        </fieldset>
+    </div>
+    </form>
+</body>
+</html>
